@@ -30,6 +30,11 @@ const parserOptions = {
         parserOptions,
         code: 'const x = gql`{ number }`',
       },
+      {
+        options,
+        parserOptions,
+        code: 'const x = other.tag`some text`',
+      }
     ],
 
     invalid: [
